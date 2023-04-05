@@ -1,0 +1,31 @@
+body {
+  background: blue;
+  color:ghostwhite
+}
+
+h1 {
+  height:100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.topSection {
+  display: flex;
+  justify-content: right;
+  margin-right: 40px;
+}
+
+.reset {
+  background-color: blue;
+  color: goldenrod;
+  border: 1px solid rgb(0, 0, 163);
+  box-shadow: 0px 0px 5px 2px goldenrod;
+  
+  
+}
+
+.gameboardSection {
+  background: green;
+  color: orangered;
+}
