@@ -4,16 +4,23 @@ body {
 }
 
 h1 {
-  height:100px;
+  height:75px;
   display:flex;
   align-items:center;
   justify-content:center;
+  margin: 0;
 }
 
 .topSection {
   display: flex;
   justify-content: right;
   margin-right: 40px;
+}
+
+.titletext {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .reset {
@@ -26,6 +33,47 @@ h1 {
 }
 
 .gameboardSection {
-  background: green;
-  color: orangered;
+  background: blue;
+}
+
+.categorySection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 100px;
+  background: blue;
+  margin-top: 30px;
+}
+
+.category {
+  background: blue;
+  color: whitesmoke;
+  display:flex;
+  border: 1px solid goldenrod;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.clueSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  // grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  background: blue;
+  margin-top: 30px;
+  height: 650px;
+}
+
+.panel {
+  height: 130px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 72;
+  background: blue;
+  color: goldenrod;
 }

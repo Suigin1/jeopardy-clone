@@ -1,20 +1,19 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import Gameboard from './Gameboard.jsx';
 // import '../scss/styles.scss';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
+const App = () => {
+  return (
+    <div>
       <section className = "topSection">
         <button class="reset">Reset Game</button>
       </section>
       <section className = "gameboardSection">
         <Gameboard />
       </section>
-      </div>
-    );
-  }
+    </div>
+  );
 }
+
 
 export default App;

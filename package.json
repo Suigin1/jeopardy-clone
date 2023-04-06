@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Suigin1/solo-proj#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "postgresql": "^0.0.1",
+    "mongoose": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

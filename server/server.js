@@ -1,7 +1,11 @@
 const path = require('path');
 const express = require('express');
 const app = express();
+const mongoose = require('mongoose');
 const PORT = 3000;
+
+const mongoURI = 'mongodb+srv://justindilts:obq374OSSmLJNoUF@jeopardy.qjtss6m.mongodb.net/?retryWrites=true&w=majority';
+mongoose.connect(mongoURI);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
