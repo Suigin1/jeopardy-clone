@@ -38,7 +38,8 @@ h1 {
 
 .categorySection {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(6, 16.5vw);
   height: 100px;
   background: blue;
   margin-top: 30px;
@@ -76,4 +77,18 @@ h1 {
   font-size: 72;
   background: blue;
   color: goldenrod;
+  width: 16.5vw;
+}
+
+QA{
+  box-shadow: 0px 0px 12px 10px black;
+  display: block;
+  border: goldenrod solid 1px;
+  background: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
 }
